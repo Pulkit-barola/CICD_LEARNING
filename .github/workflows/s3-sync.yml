@@ -21,4 +21,4 @@ jobs:
 
       - name: Upload files to S3
         run: |
-          aws s3 sync ./learningcicd  s3://cicdbucket
+          aws s3 sync ./learningcicd  s3://hdlite2bucket
